@@ -8,6 +8,13 @@
   font-weight: 400;
   font-style: normal;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
 
 .display-flex{
     display: flex;
@@ -19,7 +26,7 @@
 .text-dark2{
 color: #424242;
 }
-.text-dark3{
+.text-dark3, .span-text1{
     color: #727272;
 }
 .bg-light{
@@ -106,4 +113,37 @@ text-align: center;
   .navbar, .nav-links{
     flex-direction: column;
   }   
+}
+.team{
+   align-items: center; gap: 20px;
+}
+.team-image-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 24px;
+}
+.our-feature{
+padding: 10px;
+max-width: 530px;
+
+}
+.feature-title{
+    font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-edit2{
+color: rgb(255, 144, 14);
+}
+.feature-details{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
 }
